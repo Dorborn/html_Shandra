@@ -5,14 +5,17 @@
     <title>
         pages/gallery.html
     </title>
+    <title>pages/gallery.html</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    <h3>
-        Photos of my cats
-    </h3>
-    <img src="../Photo/Myrka.jpg" alt="Myrka" loading="lazy">
-    <img src="../Photo/Richard.jpg" alt="Richard" loading="lazy">
-    <ul class="nav">
+    <h3 id="gallery-heading" class="page-title">Photos of my cats</h3>
+    <div id="photo-gallery">
+        <img src="../Photo/Myrka.jpg" alt="Myrka" loading="lazy" class="cat-photo">
+        <img src="../Photo/Richard.jpg" alt="Richard" loading="lazy" class="cat-photo">
+    </div>
+    <ul id="gallery-nav" class="nav">
         <li><a href="../index.html">Go back</a></li>
+    </ul>
 </body>
 </html>
